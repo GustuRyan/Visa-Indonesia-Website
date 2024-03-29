@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ubuntu-font {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.loading-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+    top: 0;
+    left: 0;
+}
+
+.loading-progress {
+    height: 100%;
+    background-color: #0077D6;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.docs-border {
+    border-radius: 42px 12px 12px 12px;
+}
+
+.background-section {
+    background-image: url('/public/assets/image/visa-web-background.jpg');
+    background-size: cover; 
+    background-position: center;
+  }
