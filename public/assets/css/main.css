@@ -63,3 +63,14 @@
     border-radius: 8px;
     background: linear-gradient(180deg, #303030 0%, #131313 100%);
 }
+
+.blue-gradient {
+    background: linear-gradient(180deg, #005F71 0%, #002B53 100%);
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1400px) {
+    .gap-ipad-pro {
+        gap: 360px;
+        margin-left: 472px;
+    }
+}

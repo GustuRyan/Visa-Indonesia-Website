@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white w-[260px] h-auto rounded-2xl shadow mt-8 pt-5 pb-8 pl-4">
+    <div class="bg-white w-[260px] h-auto rounded-2xl shadow pt-5 pb-8 pl-4">
         <div class="wrapper w-full overflow-x-scroll overflow-y-hidden flex items-center font-bold">
             <section class="flex items-center w-full text-xs whitespace-nowrap cursor-pointer">
                 <span class="rounded-full w-[24px] h-[24px] bg-[#0077D6] flex
@@ -55,3 +55,12 @@
         </form>
     </div>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            isOpen: false
+        }
+    }
+}
+</script>
