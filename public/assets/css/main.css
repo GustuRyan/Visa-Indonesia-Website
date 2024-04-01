@@ -40,6 +40,26 @@
 
 .background-section {
     background-image: url('/public/assets/image/visa-web-background.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-  }
+}
+
+.border-blue-neon {
+    border: 10px solid #D4D6D6;
+    border-image: linear-gradient(to bottom, #D4D6D6, #40C6EA, #484949) 1;
+}
+
+.border-red-neon {
+    border: 10px solid #D4D6D6;
+    border-image: linear-gradient(to bottom, #D4D6D6, #F440A1, #484949) 1;
+}
+
+.border-orange-neon {
+    border: 10px solid #D4D6D6;
+    border-image: linear-gradient(to bottom, #D4D6D6, #F3693D, #484949) 1;
+}
+
+.onestop-gradient {
+    border-radius: 8px;
+    background: linear-gradient(180deg, #303030 0%, #131313 100%);
+}

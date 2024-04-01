@@ -1,9 +1,14 @@
 <script>
 import Hero from '/components/sections/hero.vue';
+import OneStopVisa from '/components/sections/one-stop-visa.vue';
+import WhyYouShould from '/components/sections/why-you-should.vue';
+
 
 export default {
   components: {
-    Hero
+    Hero,
+    OneStopVisa,
+    WhyYouShould
   }
 }
 </script>
@@ -11,8 +16,8 @@ export default {
 <template>
   <div>
     <navbar></navbar>
-    <div class="w-full h-[2140px]">
-      <hero></hero>
-    </div>
+    <hero></hero>
+    <OneStopVisa></OneStopVisa>
+    <WhyYouShould></WhyYouShould>
   </div>
 </template>
