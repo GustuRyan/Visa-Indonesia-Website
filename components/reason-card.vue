@@ -14,6 +14,7 @@
 </template>
 <script>
 export default {
+    // the variables to accomodate value from array variables on the caller file
     props: {
         title: {
             type: String,

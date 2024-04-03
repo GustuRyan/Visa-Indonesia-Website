@@ -14,7 +14,7 @@
         </div>
         <div class="flex justify-center px-5">
             <button
-                class="bg-black text-white border-black border-2 rounded-full w-[180px] py-2 px-2 mt-14 w-full text-xs flex justify-center hover:bg-[#01D06D] hover:border-white hover:border-1">
+                class="bg-black text-white border-black border-2 rounded-full w-[180px] py-2 px-2 mt-14 text-xs flex justify-center hover:bg-[#01D06D] hover:border-white hover:border-1">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2">
                     <g id="SVGRepo_iconCarrier">
                         <path

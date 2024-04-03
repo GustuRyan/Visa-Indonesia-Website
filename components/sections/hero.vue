@@ -25,12 +25,15 @@
             <div
                 class="flex-col flex md:flex md:flex-row items-center lg:items-end justify-center md:justify-between gap-12 mt-32 md:mt-36 lg:mt-24">
                 <div>
+                    <!-- call component from get-visa -->
                     <GetVisa/>
                     <div class="mt-8">
+                        <!-- call component from online-regis -->
                         <OnlineRegis/>
                     </div>
                 </div>
                 <div class="mt-16 md:mt-0">
+                    <!-- call component from upload -->
                     <Upload/>
                     <img src="/public/assets/image/hero-image.png" alt="Visa Exchange"
                         class="rounded-2xl shadow mt-6 w-[260px]">

@@ -12,13 +12,16 @@
             </div>
             <div
                 class="wrapper mt-12 flex xl:flex-col justify-center xl:justify-start items-center gap-80 xl:gap-0 overflow-x-scroll xl:overflow-auto w-full h-full">
+                <!-- in this container there are two looping that for call feedback-card in the different view style. on the xl screen display it will show all the five cards, but on less that the xl screen display it will become slider -->
                 <div
                     class="ml-[1540px] md:ml-[1540px] lg:ml-[1460px] xl:ml-0 w-full h-[264px] grid grid-cols-3 place-items-center gap-[440px] xl:gap-0">
+                    <!-- call components from feedback-card file by looping in feedback_cards -->
                     <FeedbackCard v-for="feedback_card in feedback_cards" :title="feedback_card.title"
                         :description="feedback_card.description" :imageUrl="feedback_card.imageUrl" />
                 </div>
                 <div
                     class="w-full h-[264px] grid grid-cols-2 px-48 place-items-center ml-[420px] md:ml-[86px] lg:ml-[-72px] xl:ml-0 gap-[440px] xl:gap-0">
+                    <!-- call components from feedback-card file by looping in feedback_cards -->
                     <FeedbackCard v-for="feedback_card in feedback2_cards" :title="feedback_card.title"
                         :description="feedback_card.description" :imageUrl="feedback_card.imageUrl" />
                 </div>
@@ -30,6 +33,7 @@
 export default {
     data() {
         return {
+            // create 2 array type data variables to fill the feedback-card component
             feedback_cards: [
                 { title: 'Mateo Goncalo', description: 'Visa Indonesia Official made my recent trip a breeze. Getting my visa with less effort was a game-changer. Their teams support was exceptional, ensuring I had all the necessary documents without any stress. Highly recommended!.', imageUrl: '/assets/image/feedback-profile/user-1.png' },
                 { title: 'Imanuel Jyanda', description: "I'm a frequent traveler, and VisaIndonesia Official has been a truelifesaver. Their efficient visa serviceshave saved me time and energy. Thesecure payment with Xendit addedan extra layer of confidence. I won'tgo anywhere else for my visa needs.", imageUrl: '/assets/image/feedback-profile/user-2.png' },

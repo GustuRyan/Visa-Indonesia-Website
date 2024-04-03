@@ -25,18 +25,22 @@
                     class="border-2 border-slate-300 rounded-lg px-2 py-1 w-full shadow mt-1 focus:outline focus:outline-gray-200 focus:border-slate-300"
                     id="" aria-describedby="createNewTitle" placeholder="New Visa">
             </div>
+            <!-- if the user click on this component it'll set the isOpen variable to opposite value (true -> false | false -> true), and this function will trigger the dropdown to go up or down -->
             <button @click="isOpen = !isOpen"
                 class="w-full bg-white shadow border-2 border-slate-300 rounded-lg text-md px-2 py-1 text-center inline-flex items-center mt-4 justify-between focus:outline focus:outline-gray-200"
                 type="button" data-dropdown-toggle="dropdown">
                 Filter
                 <svg class="w-4 h-4 ml-2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">
+                    <!-- condition if the variable is false, it'll show the icon below -->
                     <path v-if="!isOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M19 9l-7 7-7-7"></path>
+                    <!-- condition if the variable is true, it'll show the icon below -->
                     <path v-if="isOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5 15l7-7 7 7"></path>
                 </svg>
             </button>
+            <!-- condition if the variable is true, it'll show the dropdown -->
             <div v-if="isOpen"
                 class="absolute w-[228px] bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-2 overflow-hidden"
                 id="dropdown">
@@ -57,6 +61,7 @@
 </template>
 <script>
 export default {
+    // this is a variable to conditioning the dropdown state are true (active) or false (inactive)
     data() {
         return {
             isOpen: false
