@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 .ubuntu-font {
     font-family: 'Ubuntu Mono', monospace;
 }
@@ -44,6 +48,12 @@
     background-position: center;
 }
 
+.background-footer {
+    background-image: url('/public/assets/image/footer-background.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .border-blue-neon {
     border: 10px solid #D4D6D6;
     border-image: linear-gradient(to bottom, #D4D6D6, #40C6EA, #484949) 1;
@@ -68,9 +78,6 @@
     background: linear-gradient(180deg, #005F71 0%, #002B53 100%);
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1400px) {
-    .gap-ipad-pro {
-        gap: 360px;
-        margin-left: 472px;
-    }
+.gray-gradient {
+    background: linear-gradient(81deg, #E6E6E6 8.17%, #FDFDFD 99.87%);
 }

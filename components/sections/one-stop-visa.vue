@@ -2,7 +2,7 @@
     <div class="h-full w-full bg-[#f9f9f9] flex justify-center items-center">
         <div class="w-[90%] my-24 lg:my-48">
             <div class="text-center flex flex-col gap-4 items-center">
-                <span class="ubuntu-font text-4xl">
+                <span class="ubuntu-font text-3xl">
                     One-stop Visa in Indonesia
                 </span>
                 <span class="w-[320px] md:w-[480px] text-[#8C8C8C]">

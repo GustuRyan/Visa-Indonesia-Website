@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full w-full flex justify-center items-center my-32 lg:my-16">
+    <div class="h-full w-full flex justify-center items-center my-32 lg:my-24">
         <div class="w-[90%] ">
             <div class="flex flex-col justify-center items-center text-center">
                 <h1 class="font-bold text-sm">
@@ -12,7 +12,7 @@
                     Explore the Compelling Reasons to Choose Visa Indonesia Official for Your Visa and Travel Needs
                 </p>
             </div>
-            <div class="grid lg:grid-cols-2 gap-y-12 gap-x-2 mt-12 place-items-center">
+            <div class="grid lg:grid-cols-2 gap-y-12 gap-x-2 xl:px-36 mt-12 place-items-center">
                 <div v-for="reason_card in reason_cards" class="h-[248px]">
                     <ReasonCard :title="reason_card.title" :description="reason_card.description" :imageUrl="reason_card.imageUrl" ></ReasonCard>
                 </div>

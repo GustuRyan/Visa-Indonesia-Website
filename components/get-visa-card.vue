@@ -12,7 +12,7 @@
             <h2 class="text-xl font-semibold">
                 {{ title }}
             </h2>
-            <p class="w-[245px] font-light opacity-50 mt-2">
+            <p class="w-[280px] font-light opacity-50 mt-2">
                 {{ description }}
             </p>
         </div>

@@ -1,8 +1,8 @@
 <template>
     <div class="w-full h-auto lg:h-screen bg-slate-100 flex justify-center background-section">
         <div
-            class="lg:flex flex-col lg:flex-row items-center justify-center w-[80%] h-full lg:gap-12 pt-[180px] lg:pt-[60px] mb-20">
-            <div class="grid grid-col gap-8 w-auto text-center lg:text-left">
+            class="lg:flex flex-col xl:flex-row items-center justify-center w-[80%] h-full lg:gap-12 pt-[180px] lg:pt-[60px] mb-20">
+            <div class="grid grid-col gap-8 w-auto text-center xl:text-left">
                 <span class="ubuntu-font text-4xl">
                     Visa application made simple, apply now!
                 </span>
@@ -10,7 +10,7 @@
                     Say goodbye to cumbersome paperwork and endless queues, and say hello to a hassle-free travel
                     experience
                 </p>
-                <div class="flex justify-center lg:justify-start items-center">
+                <div class="flex justify-center xl:justify-start items-center">
                     <button
                         class="bg-black text-white text-sm rounded-lg border-black border-2 py-2 px-4 mr-2 hover:bg-white hover:text-black hover:font-bold">
                         GET VISA NOW

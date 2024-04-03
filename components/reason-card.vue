@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center md:w-[448px] h-[200px] text-center gap-4">
+    <div class="flex flex-col justify-center md:w-[456px] h-[200px] text-center gap-4">
         {{ data }}
         <div class="flex justify-center">
             <img class="w-[240px]" :src="imageUrl" alt="">
